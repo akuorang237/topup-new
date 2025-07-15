@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TopUp Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="banner">
+    <img src="images/banner.png" alt="Banner TopUp Game">
+  </header>
+  <main>
+    <h1>Pilih Game</h1>
+    <div id="game-list" class="grid">
+      <!-- game logos akan dimasukkan via JS -->
+    </div>
+  </main>
+
+  <div id="game-modal" class="modal hidden">
+    <div class="modal-content">
+      <span id="close-modal">&times;</span>
+      <div id="game-detail"></div>
+    </div>
+  </div>
+
+  <script src="qrcode.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
